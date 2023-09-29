@@ -9,9 +9,9 @@ public class PemilihanPercobaan220 {
         float uas = input20.nextFloat();
         System.out.print("Nilai uts     : ");
         float uts = input20.nextFloat();
-         System.out.print("Nilai kuis     : ");
+        System.out.print("Nilai kuis    : ");
         float kuis = input20.nextFloat();
-         System.out.print("Nilai tugas     : ");
+        System.out.print("Nilai tugas   : ");
         float tugas = input20.nextFloat();
 
         float total = (uas * 0.4F) + (uts * 0.3F) + (kuis * 0.1F) + (tugas * 0.2F);
