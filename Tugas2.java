@@ -5,17 +5,17 @@ public class Tugas2 {
 
         Scanner input20 = new Scanner(System.in);
         
-        int username = 12345;
-        int password = 00000;
+        String username = "necha";
+        String password = "tifast";
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Masukkan username: ");
-        int usernameInput = input20.nextInt();
+        String usernameInput = input20.nextLine();
         System.out.print("Masukkan password: ");
-        int passwordInput = input20.nextInt();
+        String passwordInput = input20.nextLine();
 
         //cek value
-        if (usernameInput == username && passwordInput == password) {
+        if (usernameInput.equals(username) && passwordInput.equals(password)) {
             System.out.println("Berhasil Login");
         } else {
             System.out.println("Username dan password salah");
